@@ -6,7 +6,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      FuntionName: MyBetaStackv2
+      FunctionName: MyBetaStackv2
       Runtime: nodejs4.3
       CodeUri: ./
       Events:
